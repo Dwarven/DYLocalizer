@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF22F63D1CBB775100D63621 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF22F63C1CBB775100D63621 /* AppDelegate.m */; };
+		DF22F6401CBB775100D63621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF22F63F1CBB775100D63621 /* main.m */; };
+		DF22F6431CBB775100D63621 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF22F6421CBB775100D63621 /* ViewController.m */; };
+		DF22F6451CBB775100D63621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF22F6441CBB775100D63621 /* Assets.xcassets */; };
+		DF22F6481CBB775100D63621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF22F6461CBB775100D63621 /* Main.storyboard */; };
+		DF22F6531CBB775100D63621 /* DYLocalizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF22F6521CBB775100D63621 /* DYLocalizerTests.m */; };
+		DF22F65E1CBB775100D63621 /* DYLocalizerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF22F65D1CBB775100D63621 /* DYLocalizerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF22F64F1CBB775100D63621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF22F6301CBB775100D63621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF22F6371CBB775100D63621;
+			remoteInfo = DYLocalizer;
+		};
+		DF22F65A1CBB775100D63621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF22F6301CBB775100D63621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF22F6371CBB775100D63621;
+			remoteInfo = DYLocalizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF22F6381CBB775100D63621 /* DYLocalizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYLocalizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF22F63B1CBB775100D63621 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF22F63C1CBB775100D63621 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF22F63F1CBB775100D63621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF22F6411CBB775100D63621 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF22F6421CBB775100D63621 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF22F6441CBB775100D63621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF22F6471CBB775100D63621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF22F6491CBB775100D63621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF22F64E1CBB775100D63621 /* DYLocalizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYLocalizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF22F6521CBB775100D63621 /* DYLocalizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYLocalizerTests.m; sourceTree = "<group>"; };
+		DF22F6541CBB775100D63621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF22F6591CBB775100D63621 /* DYLocalizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYLocalizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF22F65D1CBB775100D63621 /* DYLocalizerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYLocalizerUITests.m; sourceTree = "<group>"; };
+		DF22F65F1CBB775100D63621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF22F6351CBB775100D63621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF22F64B1CBB775100D63621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF22F6561CBB775100D63621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF22F62F1CBB775100D63621 = {
+			isa = PBXGroup;
+			children = (
+				DF22F63A1CBB775100D63621 /* DYLocalizer */,
+				DF22F6511CBB775100D63621 /* DYLocalizerTests */,
+				DF22F65C1CBB775100D63621 /* DYLocalizerUITests */,
+				DF22F6391CBB775100D63621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF22F6391CBB775100D63621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF22F6381CBB775100D63621 /* DYLocalizer.app */,
+				DF22F64E1CBB775100D63621 /* DYLocalizerTests.xctest */,
+				DF22F6591CBB775100D63621 /* DYLocalizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF22F63A1CBB775100D63621 /* DYLocalizer */ = {
+			isa = PBXGroup;
+			children = (
+				DF22F63B1CBB775100D63621 /* AppDelegate.h */,
+				DF22F63C1CBB775100D63621 /* AppDelegate.m */,
+				DF22F6411CBB775100D63621 /* ViewController.h */,
+				DF22F6421CBB775100D63621 /* ViewController.m */,
+				DF22F6441CBB775100D63621 /* Assets.xcassets */,
+				DF22F6461CBB775100D63621 /* Main.storyboard */,
+				DF22F6491CBB775100D63621 /* Info.plist */,
+				DF22F63E1CBB775100D63621 /* Supporting Files */,
+			);
+			path = DYLocalizer;
+			sourceTree = "<group>";
+		};
+		DF22F63E1CBB775100D63621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF22F63F1CBB775100D63621 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF22F6511CBB775100D63621 /* DYLocalizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF22F6521CBB775100D63621 /* DYLocalizerTests.m */,
+				DF22F6541CBB775100D63621 /* Info.plist */,
+			);
+			path = DYLocalizerTests;
+			sourceTree = "<group>";
+		};
+		DF22F65C1CBB775100D63621 /* DYLocalizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF22F65D1CBB775100D63621 /* DYLocalizerUITests.m */,
+				DF22F65F1CBB775100D63621 /* Info.plist */,
+			);
+			path = DYLocalizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF22F6371CBB775100D63621 /* DYLocalizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF22F6621CBB775100D63621 /* Build configuration list for PBXNativeTarget "DYLocalizer" */;
+			buildPhases = (
+				DF22F6341CBB775100D63621 /* Sources */,
+				DF22F6351CBB775100D63621 /* Frameworks */,
+				DF22F6361CBB775100D63621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYLocalizer;
+			productName = DYLocalizer;
+			productReference = DF22F6381CBB775100D63621 /* DYLocalizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF22F64D1CBB775100D63621 /* DYLocalizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF22F6651CBB775100D63621 /* Build configuration list for PBXNativeTarget "DYLocalizerTests" */;
+			buildPhases = (
+				DF22F64A1CBB775100D63621 /* Sources */,
+				DF22F64B1CBB775100D63621 /* Frameworks */,
+				DF22F64C1CBB775100D63621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF22F6501CBB775100D63621 /* PBXTargetDependency */,
+			);
+			name = DYLocalizerTests;
+			productName = DYLocalizerTests;
+			productReference = DF22F64E1CBB775100D63621 /* DYLocalizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF22F6581CBB775100D63621 /* DYLocalizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF22F6681CBB775100D63621 /* Build configuration list for PBXNativeTarget "DYLocalizerUITests" */;
+			buildPhases = (
+				DF22F6551CBB775100D63621 /* Sources */,
+				DF22F6561CBB775100D63621 /* Frameworks */,
+				DF22F6571CBB775100D63621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF22F65B1CBB775100D63621 /* PBXTargetDependency */,
+			);
+			name = DYLocalizerUITests;
+			productName = DYLocalizerUITests;
+			productReference = DF22F6591CBB775100D63621 /* DYLocalizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF22F6301CBB775100D63621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Dwarven;
+				TargetAttributes = {
+					DF22F6371CBB775100D63621 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					DF22F64D1CBB775100D63621 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DF22F6371CBB775100D63621;
+					};
+					DF22F6581CBB775100D63621 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DF22F6371CBB775100D63621;
+					};
+				};
+			};
+			buildConfigurationList = DF22F6331CBB775100D63621 /* Build configuration list for PBXProject "DYLocalizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF22F62F1CBB775100D63621;
+			productRefGroup = DF22F6391CBB775100D63621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF22F6371CBB775100D63621 /* DYLocalizer */,
+				DF22F64D1CBB775100D63621 /* DYLocalizerTests */,
+				DF22F6581CBB775100D63621 /* DYLocalizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF22F6361CBB775100D63621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF22F6451CBB775100D63621 /* Assets.xcassets in Resources */,
+				DF22F6481CBB775100D63621 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF22F64C1CBB775100D63621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF22F6571CBB775100D63621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF22F6341CBB775100D63621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF22F6431CBB775100D63621 /* ViewController.m in Sources */,
+				DF22F6401CBB775100D63621 /* main.m in Sources */,
+				DF22F63D1CBB775100D63621 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF22F64A1CBB775100D63621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF22F6531CBB775100D63621 /* DYLocalizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF22F6551CBB775100D63621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF22F65E1CBB775100D63621 /* DYLocalizerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF22F6501CBB775100D63621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF22F6371CBB775100D63621 /* DYLocalizer */;
+			targetProxy = DF22F64F1CBB775100D63621 /* PBXContainerItemProxy */;
+		};
+		DF22F65B1CBB775100D63621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF22F6371CBB775100D63621 /* DYLocalizer */;
+			targetProxy = DF22F65A1CBB775100D63621 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF22F6461CBB775100D63621 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF22F6471CBB775100D63621 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF22F6601CBB775100D63621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DF22F6611CBB775100D63621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DF22F6631CBB775100D63621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DYLocalizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dwarven.DYLocalizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF22F6641CBB775100D63621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DYLocalizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dwarven.DYLocalizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF22F6661CBB775100D63621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DYLocalizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dwarven.DYLocalizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYLocalizer.app/Contents/MacOS/DYLocalizer";
+			};
+			name = Debug;
+		};
+		DF22F6671CBB775100D63621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DYLocalizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dwarven.DYLocalizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYLocalizer.app/Contents/MacOS/DYLocalizer";
+			};
+			name = Release;
+		};
+		DF22F6691CBB775100D63621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DYLocalizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dwarven.DYLocalizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYLocalizer;
+			};
+			name = Debug;
+		};
+		DF22F66A1CBB775100D63621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DYLocalizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dwarven.DYLocalizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYLocalizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF22F6331CBB775100D63621 /* Build configuration list for PBXProject "DYLocalizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF22F6601CBB775100D63621 /* Debug */,
+				DF22F6611CBB775100D63621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF22F6621CBB775100D63621 /* Build configuration list for PBXNativeTarget "DYLocalizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF22F6631CBB775100D63621 /* Debug */,
+				DF22F6641CBB775100D63621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF22F6651CBB775100D63621 /* Build configuration list for PBXNativeTarget "DYLocalizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF22F6661CBB775100D63621 /* Debug */,
+				DF22F6671CBB775100D63621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF22F6681CBB775100D63621 /* Build configuration list for PBXNativeTarget "DYLocalizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF22F6691CBB775100D63621 /* Debug */,
+				DF22F66A1CBB775100D63621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF22F6301CBB775100D63621 /* Project object */;
+}
