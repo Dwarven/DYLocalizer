@@ -14,6 +14,7 @@
 		DF22F6481CBB775100D63621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF22F6461CBB775100D63621 /* Main.storyboard */; };
 		DF22F6531CBB775100D63621 /* DYLocalizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF22F6521CBB775100D63621 /* DYLocalizerTests.m */; };
 		DF22F65E1CBB775100D63621 /* DYLocalizerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF22F65D1CBB775100D63621 /* DYLocalizerUITests.m */; };
+		DF6E495C1CBB8AC000660695 /* DYLocalizer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6E495B1CBB8AC000660695 /* DYLocalizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		DF22F6591CBB775100D63621 /* DYLocalizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYLocalizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF22F65D1CBB775100D63621 /* DYLocalizerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYLocalizerUITests.m; sourceTree = "<group>"; };
 		DF22F65F1CBB775100D63621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6E495A1CBB8AC000660695 /* DYLocalizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYLocalizer.h; sourceTree = "<group>"; };
+		DF6E495B1CBB8AC000660695 /* DYLocalizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYLocalizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 		DF22F63A1CBB775100D63621 /* DYLocalizer */ = {
 			isa = PBXGroup;
 			children = (
+				DF6E495A1CBB8AC000660695 /* DYLocalizer.h */,
+				DF6E495B1CBB8AC000660695 /* DYLocalizer.m */,
 				DF22F63B1CBB775100D63621 /* AppDelegate.h */,
 				DF22F63C1CBB775100D63621 /* AppDelegate.m */,
 				DF22F6411CBB775100D63621 /* ViewController.h */,
@@ -268,6 +273,7 @@
 			files = (
 				DF22F6431CBB775100D63621 /* ViewController.m in Sources */,
 				DF22F6401CBB775100D63621 /* main.m in Sources */,
+				DF6E495C1CBB8AC000660695 /* DYLocalizer.m in Sources */,
 				DF22F63D1CBB775100D63621 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,6 +495,7 @@
 				DF22F6641CBB775100D63621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF22F6651CBB775100D63621 /* Build configuration list for PBXNativeTarget "DYLocalizerTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +504,7 @@
 				DF22F6671CBB775100D63621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF22F6681CBB775100D63621 /* Build configuration list for PBXNativeTarget "DYLocalizerUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +513,7 @@
 				DF22F66A1CBB775100D63621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

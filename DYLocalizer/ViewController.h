@@ -10,6 +10,10 @@
 
 @interface ViewController : NSViewController
 
+@property (weak) IBOutlet NSTextField *standardFilePath;
+@property (weak) IBOutlet NSTextField *translateFilePath;
+@property (weak) IBOutlet NSButton *mergeButton;
+@property (weak) IBOutlet NSTextField *messageLabel;
 
 @end
 
