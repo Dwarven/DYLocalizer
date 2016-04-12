@@ -32,6 +32,7 @@
 
 - (IBAction)merge:(id)sender {
     [DYLocalizer mergeWithStandardFileURL:_standardFileURL translateFileURL:_translateFileURL];
+    [[NSWorkspace sharedWorkspace] selectFile:nil inFileViewerRootedAtPath:[[_standardFileURL path] stringByDeletingLastPathComponent]];
 }
 
 -(void)getPathForTextField:(NSTextField *)textField {
